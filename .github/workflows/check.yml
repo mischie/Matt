@@ -1,0 +1,10 @@
+name: Black format check Workflow
+on: [push, pull_request]
+
+jobs:
+  code-style:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Black
+      run: |
+        black . --diff --check
