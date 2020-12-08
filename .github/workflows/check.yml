@@ -5,6 +5,17 @@ jobs:
   code-style:
     runs-on: ubuntu-latest
     steps:
-    - name: Black
-      run: |
-        black . --diff --check
+      - uses: actions/checkout@v1
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: Install dependencies
+      - name: Black
+        run: |
+          black . --diff --check
+        continue-on-error: true
+      - name: Pylint check
+        run: |
+          pylint ./bot.py ./model.py --disable=import-error  --exit-zero -r y
+        continue-on-error: true
