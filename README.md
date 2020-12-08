@@ -19,5 +19,3 @@ In case, if you want to add more responses edit `intents.json` file.
 # Contribution
 
 If you want to add anything or change anything i really appreciate your intrest, All your contributions will go under MIT License.
-
-This code is formatted using `black`, please make sure that your changes too use `black`
