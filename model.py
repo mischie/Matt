@@ -2,6 +2,8 @@ import json
 import random
 import pickle
 import nltk
+nltk.download('wordnet')
+nltk.download('punkt')
 import numpy as np
 
 from tensorflow.keras.models import Sequential
