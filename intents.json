@@ -1,0 +1,16 @@
+{
+    "intents":  [
+        {
+            "tag":  "greeting",
+            "patterns": ["Hello", "Hi", "Wassup?", "How are you", "hey", "dude"],
+            "responses": ["Hi", "I'm fine, wbu?", "Hola", "Hey, how can i help you?", "Hi there"],
+            "context": [""]
+        },
+        {
+            "tag": "common",
+            "patterns": ["About you", "what can you do", "who made you", "are you sad", "are you happy", "tell me about you", "how was that last night"],
+            "responses": ["I'm a chatbot made to entertain you", "¥matthew¥#8503 made me", "No im always happy", "Yeah that was good, i will never forgot that", "Uh, i can entertain you, if you are feeling lonely you can chat with me and etc."],
+            "context": [""]
+        }
+    ]
+}
