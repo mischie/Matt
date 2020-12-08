@@ -18,4 +18,4 @@ In case, if you want to add more responses edit `intents.json` file.
 
 # Contribution
 
-If you want to add anything or change anything i really appreciate your intrest, All your contributions will go under MIT License
+If you want to add anything or change anything i really appreciate your intrest, All your contributions will go under MIT License. And also i use a specific syntax(black) make sure to change your file syntax.
